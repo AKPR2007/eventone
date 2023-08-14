@@ -1,0 +1,12 @@
+.inject-one {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.injectA {
+  width: 192px;
+  height: 240px;
+}
+.injectB {
+  display: none;
+}
