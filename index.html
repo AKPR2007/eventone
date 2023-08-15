@@ -645,8 +645,10 @@
     </script>
     <script>
         // LOADER
-        jQuery(window).on('load', function() {
-            'use strict';
+setTimeout(masterLoader, 3000);
+function masterLoader() {
+LoaderX();
+function LoaderX() {
             jQuery('#loader').css('opacity', 0);
             setTimeout(function() {
                 jQuery('#loader').hide();
@@ -655,7 +657,7 @@
             setTimeout(function() {
                 scrollAnimation();
             }, 400);
-        });
+        }; };
     </script>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854" data-cf-beacon="{" rayId":"7f58100fdd1b0b6c","token":"dab7be3e6ab04952b40d6c8e93f6cc2a","version":"2023.7.0","si":100}" crossorigin="anonymous"></script>
 
